@@ -1,0 +1,5 @@
+178.20.47.138:5432
+user: vymanvar
+password: 1234
+bdname: docdb
+tablename: weight_table

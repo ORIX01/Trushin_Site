@@ -1,0 +1,127 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+}
+
+a {
+	color: #d38484;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #efdea0;
+}
+
+a, a:hover {
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+div.clear {
+	clear: both;
+}
+
+/*Стили для шапки*/
+
+div.header {
+	width: 98%;
+	height: 200px;
+	float: left;
+	padding: 1%;
+	background-color: rgb(242,242,242);
+}
+
+div.header #logo {
+	width: 100%;
+	height:100%;
+	float:left;
+}
+
+/*Стили основная часть*/
+
+div.main {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(25,107,177);
+	color: white;
+	display: block;
+}
+
+div.main #block {
+	float: left;
+	background-color: #333;
+	width: 90%;
+	height: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+div.main #deleterecord {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 20px;
+	background-color: #e00000;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.main #rightdeletefield {
+	float: right;
+	width: 5%;
+	height: 100px;
+
+}
+
+div.main #leftfield {
+	float: left;
+	width: 5%;
+	height: 100px;
+	border-radius: 20px;
+	background-color: #555555;
+}
+
+div.main #centralfield {
+	float: left;
+	width: 90%;
+	height: 100px;
+}
+
+/*Стили для футера*/
+
+div.footer {
+	width: 98%;
+	height: 20px;
+	float: left;
+	padding: 1%;
+	background-color: rgb(19,58,102);
+	color: white;
+	position: fixed;
+	left: 0; bottom: 0;
+}
+
+div.footer #copyright {
+	text-align: center;
+}
